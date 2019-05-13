@@ -340,9 +340,9 @@ header > .fill > .container > .brand {
 	background: #0099CC;
 	color: white;
 	text-align: center;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 60px;
 	cursor: default;
 }
