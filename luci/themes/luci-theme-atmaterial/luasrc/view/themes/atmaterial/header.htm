@@ -192,7 +192,7 @@
     <meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
     <meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
 
-    <link rel="stylesheet" href="<%=media%>/cascade.css">
+    <link rel="stylesheet" href="<%=media%>/cascade.css?v=git-19.126.12320-380cbb9">
     <link rel="shortcut icon" href="<%=media%>/favicon.ico">
     <% if node and node.css then %>
         <link rel="stylesheet" href="<%=resource%>/<%=node.css%>">
@@ -200,9 +200,9 @@
     <% if css then %>
         <style title="text/css"><%= css %></style>
     <% end -%>
-	<script src="<%=url('admin/translations', luci.i18n.context.lang)%><%# ?v=PKG_VERSION %>"></script>
-	<script src="<%=resource%>/cbi.js"></script>
-    <script src="<%=resource%>/xhr.js"></script>
+	<script src="<%=url('admin/translations', luci.i18n.context.lang)%>?v=git-19.126.12320-380cbb9"></script>
+	<script src="<%=resource%>/cbi.js?v=git-19.126.12320-380cbb9"></script>
+    <script src="<%=resource%>/xhr.js?v=git-19.126.12320-380cbb9"></script>
 </head>
 
 <body class="lang_<%=luci.i18n.context.lang%> <% if node then %><%= striptags( node.title ) %><% end %> <% if luci.dispatcher.context.authsession then %>logged-in<% end %>" data-page="<%= table.concat(disp.context.requestpath, "-") %>">
@@ -210,7 +210,7 @@
 <header>
 		<div class="container">
 			<span class="showSide"></span>
-			<a class="brand" href="#"><%=boardinfo.hostname or "?"%></a>
+			<a class="brand" href="#"><%=boardinfo.model or "?"%></a>
 			<div class="pull-right">
 				<% render_changes() %>
 				<span id="xhr_poll_status" style="display:none" onclick="XHR.running() ? XHR.halt() : XHR.run()">
