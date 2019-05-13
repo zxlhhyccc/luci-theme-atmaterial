@@ -1323,7 +1323,7 @@ body.modal-overlay-active #modal_overlay {
 
 .network-status-table .ifacebox-body>div {
 	display: flex;
-	color: #999;
+	color: #000000;
 	flex-wrap: wrap;
 }
 
