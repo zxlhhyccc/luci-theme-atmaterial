@@ -611,11 +611,11 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>li:hover {
-	background: #525;
+	background: #212a54;
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active:hover {
-	background-color: #525;
+	background-color: #212a54;
 	cursor: hand;
 }
 
@@ -1265,7 +1265,7 @@ body.modal-overlay-active #modal_overlay {
 .cbi-progressbar>div {
 	width: 0;
 	height: 100%;
-	background: var(--main-color,#90EE90);
+	background: var(--main-color,#0099CC);
 	transition: width .25s ease-in;
 }
 
@@ -1448,7 +1448,7 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .ifacebox-head.active {
-	background: #90ee90;
+	background: #0099CC;
 }
 
 .ifacebox-body {
