@@ -337,7 +337,7 @@ header > .fill > .container > .brand {
 	padding-right: 10px;
 	width: 17rem;
 	height: 60px;
-	background: #0099CC;
+	background: #3498db;
 	color: white;
 	text-align: center;
 	letter-spacing: 2px;
@@ -554,7 +554,7 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.menu:hover,.main>.main-left>.nav>li:hover {
-	background: #212a54;
+	background: #252b31;
 }
 
 .main>.main-left>.nav>.slide:hover {
@@ -584,7 +584,7 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active {
-	background-color: #1a1a1a;
+	background-color: #252b31;
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>li>a {
@@ -611,11 +611,11 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>li:hover {
-	background: #212a54;
+	background: #252b31;
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active:hover {
-	background-color: #212a54;
+	background-color: #252b31;
 	cursor: hand;
 }
 
@@ -726,7 +726,7 @@ table {
 	width: auto!important;
 	border: none;
 	border-radius: .2rem;
-	background-color: #337ab7;
+	background-color: #51aded;
 	background-image: none;
 	color: #fff;
 	text-align: center;
@@ -758,39 +758,39 @@ table {
 }
 
 .cbi-button-action.important,.cbi-button-apply.important,.cbi-button-edit.important,.cbi-button-reload.important,.cbi-page-actions .cbi-button-apply,.cbi-section-actions .cbi-button-edit {
-	background-color: #23569d!important;
+	background-color: #51aded!important;
 	color: #fff!important;
 }
 
 .cbi-button-add.important,.cbi-button-positive.important,.cbi-button-save.important,.cbi-page-actions .cbi-button-save {
-	background-color: #5bc0de!important;
+	background-color: #ee5153!important;
 	color: #fff!important;
 }
 
 .cbi-button-negative.important,.cbi-button-remove.important,.cbi-button-reset.important {
-	background-color: #c93b36!important;
+	background-color: #ee5153!important;
 	color: #fff!important;
 }
 
 .cbi-button-down,.cbi-button-find,.cbi-button-link,.cbi-button-neutral,.cbi-button-up {
     color: #fff !important;
-    background-color: #0099cc !important;
+    background-color: #51aded !important;
     border-color: #2e6da4 !important;
 }
 
 .cbi-button-action,.cbi-button-apply,.cbi-button-edit,.cbi-button-reload {
-	background-color: #337ab7;
+	background-color: #51aded;
 	color: #fff!important;
 }
 
 .cbi-button-add,.cbi-button-positive,.cbi-button-save,.cbi-page-actions .cbi-button-apply+.cbi-button-save {
 	border-color: #2e6da4!important;
-	background-color: #337ab7!important;
+	background-color: #51aded!important;
 	color: #fff!important;
 }
 
 .cbi-button-negative,.cbi-button-remove,.cbi-button-reset,.cbi-section-remove>.cbi-button {
-	background: #c93b36;
+	background: #536270;
 	color: #fff!important;
 }
 
@@ -1265,7 +1265,7 @@ body.modal-overlay-active #modal_overlay {
 .cbi-progressbar>div {
 	width: 0;
 	height: 100%;
-	background: var(--main-color,#0099CC);
+	background: var(--main-color,#51aded);
 	transition: width .25s ease-in;
 }
 
@@ -1448,7 +1448,7 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .ifacebox-head.active {
-	background: #0099CC;
+	background: #51aded;
 }
 
 .ifacebox-body {
