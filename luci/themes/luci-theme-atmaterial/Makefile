@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=ATLinksys Theme 
+LUCI_TITLE:=ATMaterial
 LUCI_DEPENDS:=
 
 include $(TOPDIR)/feeds/luci/luci.mk
