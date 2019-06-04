@@ -198,7 +198,7 @@ select {
 	border: 1px solid #e4eaec;
 	border-radius: 3px;
 	background-color: #fff;
-	color: #007d65;
+	color: rgba(0, 0, 0, 1);
 	vertical-align: baseline;
 	font-size: 10pt;
 	font-family: Roboto,sans-serif;
@@ -335,9 +335,10 @@ header > .fill > .container > .brand {
 	float: left;
 	display: block;
 	padding-right: 10px;
+	padding-top: 10px;
 	width: 17rem;
 	height: 60px;
-	background: #0099CC;
+	background: #3498db;
 	color: white;
 	text-align: center;
 	letter-spacing: 2px;
@@ -554,7 +555,7 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.menu:hover,.main>.main-left>.nav>li:hover {
-	background: #212a54;
+	background: #252b31;
 }
 
 .main>.main-left>.nav>.slide:hover {
@@ -584,7 +585,7 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active {
-	background-color: #1a1a1a;
+	background-color: #252b31;
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>li>a {
@@ -611,11 +612,11 @@ header > .fill > .container > a[class="brand"]:after {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>li:hover {
-	background: #212a54;
+	background: #252b31;
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active:hover {
-	background-color: #212a54;
+	background-color: #252b31;
 	cursor: hand;
 }
 
@@ -722,11 +723,11 @@ table {
 
 .cbi-button {
 	display: inline-block;
-	padding: .2rem 1rem;
+	padding: .3rem .5rem;
 	width: auto!important;
 	border: none;
 	border-radius: .2rem;
-	background-color: #337ab7;
+	background-color: #51aded;
 	background-image: none;
 	color: #fff;
 	text-align: center;
@@ -746,7 +747,7 @@ table {
 
 .btn:active,.btn:focus,.btn:hover,.cbi-button:active,.cbi-button:focus,.cbi-button:hover,.cbi-page-actions .cbi-button-apply+.cbi-button-save:active,.cbi-page-actions .cbi-button-apply+.cbi-button-save:focus,.cbi-page-actions .cbi-button-apply+.cbi-button-save:hover {
 	outline: 0;
-	background-color: rgba(0,0,0,.87);
+	background-color: #ee5153;
 	text-decoration: none;
 }
 
@@ -758,39 +759,39 @@ table {
 }
 
 .cbi-button-action.important,.cbi-button-apply.important,.cbi-button-edit.important,.cbi-button-reload.important,.cbi-page-actions .cbi-button-apply,.cbi-section-actions .cbi-button-edit {
-	background-color: #23569d!important;
+	background-color: #51aded!important;
 	color: #fff!important;
 }
 
 .cbi-button-add.important,.cbi-button-positive.important,.cbi-button-save.important,.cbi-page-actions .cbi-button-save {
-	background-color: #5bc0de!important;
+	background-color: #ee5153!important;
 	color: #fff!important;
 }
 
 .cbi-button-negative.important,.cbi-button-remove.important,.cbi-button-reset.important {
-	background-color: #c93b36!important;
+	background-color: #ee5153!important;
 	color: #fff!important;
 }
 
 .cbi-button-down,.cbi-button-find,.cbi-button-link,.cbi-button-neutral,.cbi-button-up {
     color: #fff !important;
-    background-color: #0099cc !important;
+    background-color: #51aded !important;
     border-color: #2e6da4 !important;
 }
 
 .cbi-button-action,.cbi-button-apply,.cbi-button-edit,.cbi-button-reload {
-	background-color: #337ab7;
+	background-color: #51aded;
 	color: #fff!important;
 }
 
 .cbi-button-add,.cbi-button-positive,.cbi-button-save,.cbi-page-actions .cbi-button-apply+.cbi-button-save {
 	border-color: #2e6da4!important;
-	background-color: #337ab7!important;
+	background-color: #51aded!important;
 	color: #fff!important;
 }
 
 .cbi-button-negative,.cbi-button-remove,.cbi-button-reset,.cbi-section-remove>.cbi-button {
-	background: #c93b36;
+	background: #536270;
 	color: #fff!important;
 }
 
@@ -1265,7 +1266,7 @@ body.modal-overlay-active #modal_overlay {
 .cbi-progressbar>div {
 	width: 0;
 	height: 100%;
-	background: var(--main-color,#0099CC);
+	background: var(--main-color,#51aded);
 	transition: width .25s ease-in;
 }
 
@@ -1448,7 +1449,7 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .ifacebox-head.active {
-	background: #0099CC;
+	background: #51aded;
 }
 
 .ifacebox-body {
