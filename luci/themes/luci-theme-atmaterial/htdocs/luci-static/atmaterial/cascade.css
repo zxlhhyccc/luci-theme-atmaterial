@@ -1340,10 +1340,10 @@ body.modal-overlay-active #modal_overlay {
 	display: flex;
 	height: 100%;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 .network-status-table .ifacebox-body>span {
-	flex: 10 10 auto;
 }
 
 .network-status-table .ifacebox-body>div {
