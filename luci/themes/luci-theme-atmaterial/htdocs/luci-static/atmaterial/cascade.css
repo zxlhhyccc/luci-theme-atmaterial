@@ -723,7 +723,7 @@ table {
 
 .cbi-button {
 	display: inline-block;
-	padding: .2rem .5rem;
+	padding: .2rem 1rem;
 	width: auto!important;
 	border: none;
 	border-radius: .2rem;
