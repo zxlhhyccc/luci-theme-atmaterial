@@ -1670,7 +1670,7 @@ header>.container>.pull-right>* {
 	padding: 2rem 4rem;
 	background-color: #fff;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
-	text-align: left;
+	text-align: center;
 }
 
 .node-main-login>.main form>div:nth-last-child(1) {
