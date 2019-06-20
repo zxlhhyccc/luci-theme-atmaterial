@@ -198,7 +198,7 @@ select {
 	border: 1px solid #e4eaec;
 	border-radius: 3px;
 	background-color: #fff;
-	color: rgba(0, 0, 0, 1);
+	color: #007d65;
 	vertical-align: baseline;
 	font-size: 10pt;
 	font-family: Roboto,sans-serif;
@@ -341,9 +341,9 @@ header > .fill > .container > .brand {
 	background: #3498db;
 	color: white;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 60px;
 	cursor: default;
 }
@@ -352,7 +352,7 @@ header>.container>a[class=brand]:after,
 header > .fill > .container > a[class="brand"]:after {
 	position: absolute;
 	top: -10px;
-	content: "";
+	content: "®";
 	font-weight: normal!important;
 	font-size: 14px;
 	font-family: Tahoma;
@@ -769,8 +769,8 @@ table {
 }
 
 .cbi-button-negative.important,.cbi-button-remove.important,.cbi-button-reset.important {
-	background-color: #ee5153!important;
-	color: #fff!important;
+	background-color: #51aded!important;
+	color: #2e6da4!important;
 }
 
 .cbi-button-down,.cbi-button-find,.cbi-button-link,.cbi-button-neutral,.cbi-button-up {
@@ -785,7 +785,7 @@ table {
 }
 
 .cbi-button-add,.cbi-button-positive,.cbi-button-save,.cbi-page-actions .cbi-button-apply+.cbi-button-save {
-	border-color: #2e6da4!important;
+	border-color: #2e6da4!!important;
 	background-color: #51aded!important;
 	color: #fff!important;
 }
@@ -1185,7 +1185,7 @@ body.modal-overlay-active #modal_overlay {
     word-break: break-all;
 }
 .cbi-dynlist > .item::after{
-    content: "Ã—";
+    content: "×";
     position: absolute;
     display: inline-flex;
     align-items: center;
@@ -1324,7 +1324,7 @@ body.modal-overlay-active #modal_overlay {
 
 .network-status-table .ifacebox-body>div {
 	display: flex;
-	color: #000000;
+	color: #999;
 	flex-wrap: wrap;
 }
 
@@ -1670,7 +1670,7 @@ header>.container>.pull-right>* {
 	padding: 2rem 4rem;
 	background-color: #fff;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,.16),0 0 2px 0 rgba(0,0,0,.12);
-	text-align: center;
+	text-align: left;
 }
 
 .node-main-login>.main form>div:nth-last-child(1) {
