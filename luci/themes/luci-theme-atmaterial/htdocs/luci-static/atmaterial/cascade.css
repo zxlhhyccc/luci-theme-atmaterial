@@ -1031,15 +1031,15 @@ table {
 	display: flex;
 	margin: 5em auto;
 	padding: 1em 1em .5em;
-	width: 90%;
-	max-width: 1000px;
+	width: 100%;
+	max-width: 900px;
 	max-height: 25in;
 	min-width: 270px;
 	min-height: 2pc;
 	border-radius: 3px;
 	background: #fff;
 	box-shadow: 0 0 3px #444;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	align-items: center;
 }
 
@@ -1059,7 +1059,7 @@ body.modal-overlay-active #modal_overlay {
 	margin: 5em auto;
 	padding: 1em;
 	width: 90%;
-	max-width: 600px;
+	max-width: 900px;
 	max-height: 25in;
 	min-width: 270px;
 	min-height: 2pc;
